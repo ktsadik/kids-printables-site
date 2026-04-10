@@ -419,40 +419,66 @@
         text-align: left;
       }
     }
+	
+	.cta-row-top {
+	  margin: 0 0 14px;
+	}
+
+	@media (max-width: 759px) {
+	  .hero {
+		gap: 14px;
+	  }
+
+	  .hero h1 {
+		margin-bottom: 12px;
+	  }
+
+	  .cta-row-top .btn {
+		width: 100%;
+	  }
+
+	  .hero p {
+		margin-top: 0;
+	  }
+	}
   </style>
 </head>
 <body>
   <div class="wrap" id="top">
     <section class="hero">
-      <div class="video-card">
-        <video autoplay muted loop playsinline poster="Images/CBP_preview.png">
-          <source src="Images/Post For Pinterest.mp4" type="video/mp4">
-        </video>
-        <div class="video-caption">Interactive pixel color activity preview</div>
-      </div>
+	  <div>
+		<div class="eyebrow">Printable & digital kids activities</div>
+		<h1>Fun printable & digital kids activities</h1>
 
-      <div>
-        <div class="eyebrow">Printable & digital kids activities</div>
-        <h1>Fun coloring and learning pages kids can start in minutes</h1>
-        <p>
-          Discover easy activities for home, quiet time, travel, and creative play. Print them or use selected activities on screen.
-        </p>
+		<div class="cta-row cta-row-top">
+		  <a class="btn" href="https://www.etsy.com/il-en/shop/JTStudioDesignStore" target="_blank" rel="noopener noreferrer">👉 Browse the Etsy shop</a>
+		</div>
 
-        <ul class="benefits">
-          <li>Instant download</li>
-          <li>Print & play</li>
-          <li>Use on screen</li>
-          <li>Fun + educational</li>
-        </ul>
+		<p>
+		  Discover easy activities for home, quiet time, travel, and creative play. Print them or use selected activities on screen.
+		</p>
 
-        <div class="cta-row">
-          <a class="btn" href="https://www.etsy.com/il-en/shop/JTStudioDesignStore" target="_blank" rel="noopener noreferrer">👉 Browse the Etsy shop</a>
-          <a class="btn secondary" href="#activities">See activity types</a>
-        </div>
+		<ul class="benefits">
+		  <li>Instant download</li>
+		  <li>Print & play</li>
+		  <li>Use on screen</li>
+		  <li>Fun + educational</li>
+		</ul>
 
-        <div class="mini-note">Great for kids who enjoy coloring, matching, tracing, and simple learning games.</div>
-      </div>
-    </section>
+		<div class="cta-row">
+		  <a class="btn secondary" href="#activities">See activity types</a>
+		</div>
+
+		<div class="mini-note">Great for kids who enjoy coloring, matching, tracing, and simple learning games.</div>
+	  </div>
+
+	  <div class="video-card">
+		<video autoplay muted loop playsinline poster="images/1.png">
+		  <source src="images/Post For Pinterest.mp4" type="video/mp4">
+		</video>
+		<div class="video-caption">Interactive pixel color activity preview</div>
+	  </div>
+	</section>
 
     <section class="quick-grid">
       <div class="quick-card">
